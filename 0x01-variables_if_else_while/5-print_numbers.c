@@ -1,9 +1,9 @@
 #include <stdio.h>
- /**
+
+/**
+  * main - the main function
   *
-  * main - main function
-  *
-  * Return: prints all digt numbers of base 10
+  * Return: always 0
   */
 
 int main(void)
