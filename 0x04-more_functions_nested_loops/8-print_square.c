@@ -5,4 +5,17 @@
  *
  * @size: size
  *
- * Return: always 0 
+ * Return: always 0
+ */
+
+void print_square(int size)
+{
+	int row, col;
+
+	for (row = 1; row <= size; row++)
+	{
+		for (cl = 1; col  >= size; col++)
+			_putchar('#');
+		_putchar('\n');
+	}
+}
