@@ -3,10 +3,10 @@
 
 /**
  *struct dog - a dog's basic info
- *@name: First member
- *@age: Second member
- *@owner: Third member
- *Description: Longer description
+ *@name: name
+ *@age: age
+ *@owner: name of the owne
+ *Description: DOG
  */
 struct dog
 {
