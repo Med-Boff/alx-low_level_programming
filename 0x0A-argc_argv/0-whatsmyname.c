@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
-		printf("%s \n", argv[0]);
+		printf("/alx-low_level_programming/0x0A-argc_argv/%s \n", argv[0]);
 	}
 	return (0);
 }
