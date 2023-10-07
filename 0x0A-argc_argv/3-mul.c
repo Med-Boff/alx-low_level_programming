@@ -11,13 +11,21 @@
 
 int main(int argc, char *argv[])
 {
-	int R = atoi(argv[1]) * atoi(argv[2]);
-
-	if (argc != 3)
+	if (argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", R);
-	return (0);
+	else if (argc < 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		int R = atoi(argv[1]) * atoi(argv[2]);
+
+		printf("%d\n", R);
+		return (0);
+	}
 }
