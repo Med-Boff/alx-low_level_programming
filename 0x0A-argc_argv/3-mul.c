@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int n2 = atoi(argv[2]);
 	int R = n1 * n2;
 
-	if (argc != 3)
+	if (argc == 3)
 	{
 		printf("%d\n", R);
 	}
