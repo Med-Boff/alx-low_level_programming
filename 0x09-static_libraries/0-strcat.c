@@ -1,5 +1,5 @@
 /**
- *_starcat - fonction
+ *_strcat - fonction
  * @dest: variable 1
  * @src: variable 2
  *
