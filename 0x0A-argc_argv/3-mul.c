@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int n = atoi(argv[1]) *  atoi(argv[2]);
 
-	if (argc == 3)
+	if (argc == 0)
 	{
 		printf("%d\n", n);
 		return (1);
@@ -20,5 +20,5 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 	}
-	return (0);
+	return (1);
 }
