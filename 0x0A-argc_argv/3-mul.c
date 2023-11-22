@@ -9,16 +9,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int n = atoi(argv[1]) *  atoi(argv[2]);
-
 	if (argc == 3)
 	{
+		int n = atoi(argv[1]) *  atoi(argv[2]);
+
 		printf("%d\n", n);
 		return (0);
 	}
-	else
-	{
-		printf("Error\n");
-	}
+	printf("Error\n");
 	return (1);
 }
