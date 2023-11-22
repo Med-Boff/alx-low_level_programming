@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int n = atoi(argv[1]) *  atoi(argv[2]);
 
-	if (argc == 0)
+	if (argc == 3)
 	{
 		printf("%d\n", n);
 		return (0);
