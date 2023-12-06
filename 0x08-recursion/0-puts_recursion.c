@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * puts_recursion - fonction that prints a string followed by a new line
+ * _puts_recursion - fonction that prints a string followed by a new line
  * @s: var holding the string
  *
  * Return: always 0
