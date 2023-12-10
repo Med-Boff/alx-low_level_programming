@@ -6,7 +6,7 @@
  */
 
 
-void before_main(void) __attribute__((constructor));
+void b_main(void) __attribute__((constructor));
 
 void b_main(void)
 {
