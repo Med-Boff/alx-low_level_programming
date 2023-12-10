@@ -20,9 +20,7 @@ int _sqrt_recursion(int n)
 		{
 			return (n);
 		}
-		else if (n % 2 == 0)
-		{
-			return (_sqrt_recursion(n));
-		}
+
 	}
+	return (_sqrt_recursion(n));
 }
