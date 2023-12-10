@@ -13,5 +13,16 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-		return (_sqrt_recursion(n / 2));
+	if (n % 2 == 0)
+	{
+		n = n / 2;
+		if (n % 2 != 0)
+		{
+			return (n);
+		}
+		else if (n % 2 == 0)
+		{
+			return (_sqrt_recursion(n));
+		}
+	}
 }
