@@ -3,20 +3,10 @@
 /**
  * b_main - prints string befor main execution
  *
- * main - prints string
- * 
- * Return: 0
  */
 
-void b_main(void);
 
-
-int main(void)
-{
-	b_main();
-	printf("A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
-	return (0);
-}
+void before_main(void) __attribute__((constructor));
 
 void b_main(void)
 {
