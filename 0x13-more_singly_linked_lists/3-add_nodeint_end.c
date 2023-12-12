@@ -1,32 +1,26 @@
 #include "lists.h"
 
 /**
- * add_node_end - prints elements of a linked list
+ * add_nodeint_end - prints elements of a linked list
  *
- * @str: name
+ * @n: num
  * @head: pointer to the head of the linked list
  *
  * Return: number of nodes
  */
 
-list_t *add_node_end(list_t **head, const char *str)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	list_t *n_node;
-	list_t *t_node = *head;
+	listint_t *n_node;
+	listint_t *t_node = *head;
 
-	if (str == NULL)
-	{
-		return (NULL);
-	}
-
-	n_node = malloc(sizeof(list_t));
+	n_node = malloc(sizeof(listint_t));
 
 	if (n_node == NULL)
 	{
 		return (NULL);
 	}
-	n_node->str = strdup(str);
-	n_node->len = strlen(str);
+	n_node->n = n;
 
 	if (*head == NULL)
 	{

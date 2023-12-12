@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node - prints elements of a linked list
+ * add_nodeint - prints elements of a linked list
  *
  * @n: name
  * @head: pointer to the head of the linked list
