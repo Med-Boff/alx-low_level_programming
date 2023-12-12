@@ -6,9 +6,9 @@
  *
  */
 
-void free_listint2(listint_t *head)
+void free_listint2(listint_t **head)
 {
-	listint_t *t_node = head;
+	listint_t *t_node = *head;
 	listint_t *n_node;
 
 
@@ -19,5 +19,5 @@ void free_listint2(listint_t *head)
 		free(t_node);
 		t_node = n_node;
 	}
-	head = NULL;
+	*head = NULL;
 }
