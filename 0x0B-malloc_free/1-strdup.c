@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _strdup - returns a point to a new  space in mem that contains a copy of str
  * @str: var that contains string
@@ -9,18 +9,18 @@
 
 char *_strdup(char *str)
 {
-	char *P;
+	char *p;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	p = (malloc(str));
-	*p = strdup(str);
+	p = (malloc(strlen(str) + 1));
 	if (p == NULL)
 	{
 		return (NULL);
 	}
+	strcpy(p, str);
 	return (p);
 
 }
