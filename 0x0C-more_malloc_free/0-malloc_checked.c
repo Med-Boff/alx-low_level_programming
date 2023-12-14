@@ -3,6 +3,8 @@
 /**
  * malloc_checked - allocate memory using malloc
  * @b: intiger var
+ *
+ * Return: p
  */
 
 void *malloc_checked(unsigned int b)
@@ -14,5 +16,5 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);
 	}
-	*p = b;
+	return(p);
 }
